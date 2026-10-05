@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Hero{
+    background-color: #EFF4FF;
+    height: 600px;
+}
+#NewSeason{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #6CF8BB;
+    width: 170px;
+    border-radius: 15px;
+    height: 20px;
+    margin-left: 20px;
+}
+#Experience{
+    font-weight: bold;
+    margin-left: 20px;
+}
+#Explore{
+    margin-left: 20px;
+    width: 420px;
+    letter-spacing: 1px; 
+}
+.Hero-Content-Btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    gap: 30px;
+}
+#ElectronicsBtn{
+    background-color: #3525CD;
+    color: white;
+    padding: 12px;
+    padding-inline: 18px;
+    border: none;
+    border-radius: 10px;
+}
+#ElectronicsBtn:hover{
+ background-color: #1d1282;
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
+#ViewBtn{
+    background: transparent;
+    border: 1px solid #3525CD;
+    color:#3525CD;
+    padding: 12px;
+    padding-inline: 18px;
+    border-radius: 10px;
+}
+#ViewBtn:hover{
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
+
+/* TopCategories */
+
+.Above-TopCategories-Right a{
+    text-decoration: none;
+    color: #3525CD;
+    font-size: 18px;
+}
+.TopCategories-Left{
+    padding: 30px;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    color: white;
+    background-image: url("../../assets/TopCategoryLeft.png");
+    background-size: cover;
+}
+.Wearbles{
+    background-image: url("../../assets/TopCategoryWearbales.png");
+    background-size: cover;
+    color: white;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.Audio{
+    background-image: url("../../assets/TopCategoryAudio.png");
+    background-size: cover;
+    color: white;
+    padding: 30px;
+     width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.Theater{
+    background-image: url("../../assets/TopCategoryRightBelow.png");
+    background-size: cover;
+    color: white;
+    height: 200px;
+    padding: 30px;
+}
+
+/* Top Products */
+
+.TopProducts .card{
+    height: 340px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px black;
+    cursor: pointer;
+}
+.TopProducts .card:hover{
+transform: translateY(-10px);
+transition: 0.6s;
+box-shadow: 4px 6px 25px black;
+}
+.TopProducts .card img{
+    height: 170px;
+    object-fit: contain;
+}
+.TopProducts .card h5{
+   margin-bottom: 40px;
+}
+.TopProducts .card p{
+color: green;
+font-weight: bold;
+font-size: 25px;    
+}
+.TopProducts .card a{
+color: #3525CD;
+font-weight: bold;
+font-size: 25px;
+cursor: pointer;    
+}
+/* Position indicators container at the top right */
+.carousel-indicators {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: auto; /* Overrides Bootstrap's centered positioning */
+  bottom: auto;
+  margin: 1rem;
+  justify-content: flex-end;
+  
+}
+
+/* Style individual indicator buttons */
+.carousel-indicators [data-bs-target] {
+  background-color: #1d1282 !important; /* Force custom color over Bootstrap transparent default */
+  opacity: 0.6; /* Slight transparency for inactive state */
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  text-indent: 0; /* Bootstrap hides text by default; this reveals your slide numbers */
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Active and hover states */
+.carousel-indicators [data-bs-target]:hover,
+.carousel-indicators .active {
+  opacity: 1 !important;
+  background-color: #3525cd !important;
+  transform: scale(1.05);
+}
+
+.Above-Footer{
+    height: 300px;
+    background-color: #3525CD;
+    border-radius: 10px;
+    padding: 40px;
+}
+.Above-Footer h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+
+
+}
+.Above-Footer p{
+    color: #DAD7FF;
+    width: 400px;
+}
+.Above-Footer input{
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    background-color: #493AD2;
+
+}
+.Above-Footer button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    padding-inline: 30px;
+    border: none;
+    border-radius: 10px;
+}

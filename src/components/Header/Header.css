@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+.nav-item a:hover{
+    color: #3525CD;
+}
+#Brand{
+    color:#3525CD;
+    margin-top: 6px;
+    margin-right: 3px;
+}
+.form-control{
+    background-color:  #E6EEFF;
+}
+#SearchBtn{
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #3525CD;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#SearchBtn:hover{
+     background-color: #1d1282;
+    transform: translateY(-5px);
+    transition: 0.4s; 
+}
+.Icon-Links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.Icon-Links a{
+    color: #3525CD;
+    margin-left: 25px;
+    font-size: 18px;
+}
+.Icon-Links a:hover{
+    transform: translateY(-5px);
+    transition: 0.4s; 
+
+}

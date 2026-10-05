@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Cart-Area{
+    height: 100vh;
+   
+}
+.Cart-Msg img{
+    width: 260px;
+    height: 260px;
+    border-radius: 120px;
+}
+.Start-Btn{
+    background-color: #3525CD;
+    color: white;
+    padding: 12px;
+    padding-inline: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.Start-Btn:hover{
+     background-color: #1d1282;
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
+.View-Btn{
+    background: transparent;
+    border: 1px solid #3525CD;
+    color:#3525CD;
+    padding: 12px;
+    padding-inline: 18px;
+    border-radius: 10px;
+}
+.View-Btn:hover{
+     transform: translateY(-5px);
+    transition: 0.4s;
+
+}

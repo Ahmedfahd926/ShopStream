@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+.sidebar{
+    padding: 15px;
+    min-height: 60vh;
+    max-height: 60vh;
+    width: 15%;
+    position: sticky;
+    top: 30px;
+    left: 0px;
+}
+.sidebar span{
+    font-size: 20px;
+    color: #464555;
+}
+.sidebar input{
+    accent-color:#3525CD ;
+}
+.sidebar .CheckBoxes nav > div{
+    gap: 6px;
+}
+.sidebar select{
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid #d7d9e4;
+    border-radius: 4px;
+    background: white;
+}
+
+.PriceRange h6{
+    color: #3525CD;
+}
+.Products-Area{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+.Products-Area .card{
+    height: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px black;
+    cursor: pointer;
+}
+.Products-Area .card:hover{
+transform: translateY(-10px);
+transition: 0.6s;
+box-shadow: 4px 6px 25px black;
+}
+.Products-Area .card img{
+    height: 170px;
+    object-fit: contain;
+}
+.Products-Area .card h5{
+   margin-bottom: 40px;
+}
+.Products-Area .card p{
+color: green;
+font-weight: bold;
+font-size: 25px;    
+}
+.Products-Area .card a{
+color: #3525CD;
+font-weight: bold;
+font-size: 25px;
+cursor: pointer;    
+}
+.Products-Area .card a:hover{
+transform: scale(1.1);
+transition: 0.5s;
+}
+.Products-Area .product-card-link{
+    color: inherit;
+    text-decoration: none;
+}
+.Products-Area .card-cart-icon{
+    color: #3525CD;
+    font-size: 25px;
+}
+.filter-empty-state{
+    grid-column: 1 / -1;
+    padding: 32px 16px;
+    color: #464555;
+    text-align: center;
+}
